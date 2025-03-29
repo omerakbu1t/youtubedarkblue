@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <title>Chrome Addon v3: popup</title>
+    <script src="popup.js"></script>
+</head>
+<body class="noselect">
+    <div id="headerbg"><h1 id="header">Youtube Options</h1></div>
+    <div class="row">
+    
+
+    <label class="switch">
+        <input type="checkbox" name="checkbox" id="cbtheme">
+        <span class="slider round"></span>
+
+    </label>
+    <h3 class="switchlabel">Theme</h3>
+    </div>
+
+
+
+
+
+    <div class="row">
+        <label class="switch">
+            <input type="checkbox" name="checkbox" id="cbnet">
+            <span class="slider round"></span>
+        </label>
+        <h3 class="switchlabel">Netflix Subtitles</h3>
+    </div>
+
+
+    <div class="row">
+        <label class="switch">
+            <input type="checkbox" name="checkbox" id="cbvtool2">
+            <span class="slider round"></span>
+        </label>
+        <h3 class="switchlabel">Video Downloader</h3>
+    </div>
+
+
+    <div class="row">
+        <label class="switch">
+            <input type="checkbox" name="checkbox" id="cbicon">
+            <span class="slider round"></span>
+        </label>
+        <h3 class="switchlabel">Custom Icon</h3>
+    </div>
+
+
+
+
+    <div class="row" id="iconselectorrow">
+        <div class="flex">
+        <h1 style="flex:5;">Choose Custom Icon</h1>
+        <button class="tbtn" id="collapse">
+            <img draggable="false"style="flex:5;width: 40px; height: 40px;" src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png">
+        </button>
+
+
+        </div>
+        <div id="collapsable" class="hidden">
+            <div class="flex">
+            <input id="iconurl" placeholder="Url to the icon" type="text">
+            <img id="preview">
+            </div>
+
+
+            <div class="flex" id="fbox">
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/XOsX.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.kym-cdn.com/photos/images/original/002/730/263/b69.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://media.tenor.com/ybltK0OLjrAAAAAi/joel-spin.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://media1.giphy.com/avatars/danielfigueirdo/mR5uHXLuePGT.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.pinimg.com/originals/09/58/a2/0958a212d8e4b354b2668472808d5548.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://media.idownloadblog.com/wp-content/uploads/2016/11/Animated-GIF-Banana.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/3Okg1.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/6oa.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/Y3il.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/3nR6.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/Z5cP.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/XwI7.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/3F3F.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/YaDd.gif"></button>
+                <button class="selectable"><img draggable="false" src="https://i.gifer.com/2iiJ.gif"></button>
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="headerbg"><h3 id="header">Developed By <a href="https://github.com/omerakbu1t" target="_blank" style="color:rgb(212, 46, 46)">omerakbu1t</a></h1></div>
+
+
+    <button class="full" id="refresh">REFRESH PAGE</button>
+</body>
+</html>

@@ -1,0 +1,195 @@
+/*THEME*/
+:root{
+	--ytd-masthead-height:50px;
+}
+
+
+
+#columns {
+	background-color:rgb(2,4,10) !important;
+}
+
+#masthead-container{
+  align-items:center!important;
+    width: 100% !important;
+  background:transparent !important;
+}
+#masthead {
+  border-radius:0px 0px 11px 11px !important;
+  
+	background-color:rgba(37, 40, 53,0.4) !important;
+  backdrop-filter: blur(30px);
+  padding-top:1px;
+}
+
+#masthead > #background{
+  border-radius:0px 0px 11px 11px !important;
+box-shadow: 0px 0px 29px 0px rgba(255,255,255,0.05);
+  
+}
+
+#masthead-container {
+  border-radius:0px 0px 15px 15px !important;
+}
+
+ytd-masthead > #background{
+  background:transparent !important;
+  
+}
+ytd-app,head,body{
+  background:rgb(8, 11, 19) !important;
+}
+
+/*ytd-page-manager#page-manager.style-scope:not(:fullscreen){
+  margin-top:var(--ytd-masthead-height,var(--ytd-toolbar-height));
+}*/
+
+#start > #guide-button {
+	border-radius: 5px !important;
+  margin-left:5px!important;
+}
+#guide-inner-content {
+  background-color: transparent !important;
+}
+#guide-content > #header {
+  background-color: transparent !important;
+}
+
+#guide-content {
+  background-color:rgba(8, 11, 19,0.6) !important;
+  backdrop-filter: blur(6px);
+}
+
+#voice-search-button > ytd-button-renderer > yt-button-shape >.yt-spec-button-shape-next {
+  background-color: rgba(6,10,20,0.8) !important;
+}
+
+#search-form > #container{
+  background-color: rgba(6,10,20,0.6) !important;
+  border: 0 !important;
+  
+}
+#search > #search-icon-legacy{
+  background-color: rgba(6,10,20,0.6) !important;
+  border:0 !important;
+  
+  
+  
+}
+ytd-live-chat-frame #show-hide-button.ytd-live-chat-frame>ytd-button-renderer.ytd-live-chat-frame{
+  background-color: transparent !important;
+  
+}
+
+
+#contentContainer.style-scope.tp-yt-app-drawer{
+  background:transparent !important;
+}
+
+
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer{
+  background-color: rgba(6,10,20,0.5) !important;
+  backdrop-filter: blur(8px);
+}
+
+
+.sbsb_a{
+  background: rgba(6,10,20,0.6) !important;
+  backdrop-filter: blur(15px);
+}
+
+
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal,#bottom-row > #description {
+  background: rgba(37, 40, 53,0.5) !important;
+  -webkit-box-shadow:0px 0px 166px 6px rgba(45,255,196,0.11);
+-moz-box-shadow: 0px 0px 166px 6px rgba(255,255,255,0.11);
+box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.05);
+}
+
+
+
+ytd-multi-page-menu-renderer{
+  background:rgba(6,10,20,0.6) !important;
+  backdrop-filter: blur(8px);
+}
+
+
+#right-arrow.ytd-feed-filter-chip-bar-renderer:before{
+	background: linear-gradient(to left,rgba(8,11,19,1) 20%,rgba(33,33,33,0) 80%) !important;
+
+}
+#left-arrow.ytd-feed-filter-chip-bar-renderer:after{
+	background: linear-gradient(to right,rgba(8,11,19,1) 20%,rgba(33,33,33,0) 80%) !important;
+
+}
+#cinematics-container {
+  display:none !important;
+}
+
+
+#left-arrow-button.ytd-feed-filter-chip-bar-renderer, #right-arrow-button.ytd-feed-filter-chip-bar-renderer{
+
+	background-color: rgba(8,11,19,1) !important;
+}
+
+ytd-mini-guide-renderer {
+  background:rgba(6,10,20,0.8) !important;
+}
+
+
+
+ytd-mini-guide-entry-renderer{
+	background-color:rgba(37, 40, 53,0) !important;
+}
+
+
+
+ytd-merch-shelf-renderer:not([skinny-mode]) {
+background:transparent !important;
+}
+
+
+
+#header > .ytd-multi-page-menu-renderer {
+background: transparent !important;
+}
+
+
+
+#tabs-inner-container.ytd-c4-tabbed-header-renderer,#channel-container.ytd-c4-tabbed-header-renderer, #tabs-container.ytd-c4-tabbed-header-renderer,#channel-header.ytd-c4-tabbed-header-renderer,tp-yt-app-toolbar.style-scope.ytd-c4-tabbed-header-renderer{
+  background: transparent !important;
+  backdrop-filter: blur(15px)
+}
+
+
+
+#masthead-ad ,.ytd-in-feed-ad-layout-renderer{
+	display: none !important;
+}
+
+
+
+
+yt-page-navigation-progress{
+  background:none !important;
+}
+#progress.yt-page-navigation-progress{
+  background:red !important;
+}
+ytd-watch-metadata.ytd-watch-flexy{
+  margin-top: 20px !important;
+}
+
+.item.ytd-watch-metadata{
+  margin-top: 20px !important;
+}
+h1.style-scope.ytd-watch-metadata{
+  margin-bottom: px !important;
+}
+div#description.item.style-scope.ytd-watch-metadata{
+  margin-top: 10px !important;
+}
+
+#flexible-item-buttons > ytd-download-button-renderer, #flexible-item-buttons > yt-button-view-model:nth-child(2){
+  display:none !important;
+}
