@@ -5,14 +5,14 @@ Youtube Dark Blue is a Chrome extension that enhances the YouTube experience wit
 
 ## ✨ Features
 
-### 🖼️ Icon Changer Guide
+- 🎨 **Dark Blue Theme**: A stylish dark blue color scheme for YouTube.
+- 🖼️ **Icon Changer**: Customize YouTube's icons with provided options or paste the URL of any GIF from the internet:
+
 You can easily change YouTube's icons by following these steps:
 1. Open the extension's popup by clicking on the extension icon in your browser toolbar.
-2. Paste the URL of any GIF image into the designated input field.
-3. Press the **Apply** button to update the icons instantly.
-4. If needed, refresh YouTube to see the changes take effect.
-- 🎨 **Dark Blue Theme**: A stylish dark blue color scheme for YouTube.
-- 🖼️ **Icon Changer**: Customize YouTube's icons with provided options or paste the URL of any GIF from the internet.
+2. Paste the URL of any GIF image into the designated input field. Extension will automatically detect and change the icon.
+3. Refresh YouTube to see the changes take effect.
+
 - ⬇️ **Video Downloader**: Download YouTube videos with ease.
 - 🎬 **Netflix-Inspired Subtitles**: Experience subtitles styled like Netflix for improved readability.
 
@@ -41,7 +41,7 @@ Since this is an unpacked Chrome extension, you need to install it manually:
 For browsers like Chromium, Opera, or Edge, you can install the packed extension:
 
 1. **📥 Download the Packed Extension**
-   - Navigate to the releases section of this repository and download the `.crx` file.
+   - Navigate to the [releases](https://github.com/omerakbu1t/youtubedarkblue/releases) section of this repository and download the `.crx` file.
 
 2. **🔧 Install the Extension**
    - Drag and drop the `.crx` file into your browser’s extensions page (`chrome://extensions/` or equivalent in your browser).
